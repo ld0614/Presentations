@@ -1,5 +1,4 @@
-MIT License
-
+<#
 Copyright (c) 2018 Leo D'Arcy - leo.darcy@outlook.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -19,3 +18,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+#>
+
+$DSCRGName = "storageaccountrg-01"
+$DSCStorageAccountName = "storageaccount01"
+$DSCPath = "ServerBaseline.ps1"
+
+Publish-AzureRmVMDscConfiguration -ResourceGroupName $DSCRGName -StorageAccountName $DSCStorageAccountName -ConfigurationPath $DSCPath -Force -Confirm:$false
