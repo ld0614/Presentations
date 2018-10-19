@@ -1,6 +1,6 @@
 **Abstract**
 
-For many years IT departments have been configuring virtual machine templates within their hypervisor to assist with the automation of new virtual machines. With the advent of Azure the same functionality is not immediately available and the concept of ‘gold images’ is no longer required. This session will go through some of the advantages of automating virtual machine deployment for IT departments, explain how PowerShell and Desired State Configuration can be combined to minimise the time spent on common tasks and will demonstrate a basic build process with ideas for extendibility.
+For many years IT departments have been configuring virtual machine templates within their hypervisor to assist with the automation of new virtual machines. With the advent of Azure the same functionality is not immediately available and the concept of ‘gold images’ is no longer required. This session will go through some of the advantages of automating virtual machine deployment for IT departments, explain how PowerShell and Desired State Configuration can be combined to minimize the time spent on common tasks and will demonstrate a basic build process with ideas for extendibility.
 
 **Script Description**
 
@@ -14,5 +14,5 @@ PowerShell London UK User Group - 16th August 2018
 
 **Notes**
 
-While the code should work it was designed as a quick Proof of Concept to highlight the ideas in the talk.  As such is should not be used in Production without a carful understnaind of its limitations.
+While the code should work it was designed as a quick Proof of Concept to highlight the ideas in the talk.  As such is should not be used in Production without a careful understanding of its limitations.
 
